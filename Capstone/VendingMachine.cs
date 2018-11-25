@@ -91,7 +91,7 @@ namespace Capstone
             decimal dimes = 0;
             decimal nickels = 0;
             
-            // Logs to Log file the amount of change given to customer
+            // Logs to Log.txt file the amount of change given to customer
             logger.LogChange(change, 0.00m);
 
             while (change >= 0.25M)
